@@ -1,0 +1,71 @@
+<!--pages/citylist/index.wxml-->
+<view class='city-list'>
+  <view class='city-list-item'>北京<text>GPS定位</text></view>
+</view>
+<view class='city-index'>热门城市</view>
+<view class='city-hot'>
+  <view class='city-hot-item'>北京</view>
+  <view class='city-hot-item'>成都</view>
+  <view class='city-hot-item'>重庆</view>
+  <view class='city-hot-item'>广州</view>
+  <view class='city-hot-item'>杭州</view>
+  <view class='city-hot-item'>南京</view>
+  <view class='city-hot-item'>上海</view>
+  <view class='city-hot-item'>深圳</view>
+  <view class='city-hot-item'>苏州</view>
+  <view class='city-hot-item'>天津</view>
+  <view class='city-hot-item'>武汉</view>
+  <view class='city-hot-item'>西安</view>
+</view>
+<view class='city-index'>A</view>
+<view class='city-list'>
+  <view class='city-list-item'>阿巴嘎旗</view>
+  <view class='city-list-item'>阿坝</view>
+  <view class='city-list-item'>阿巴嘎旗</view>
+  <view class='city-list-item'>阿坝</view>
+  <view class='city-list-item'>阿巴嘎旗</view>
+  <view class='city-list-item'>阿坝</view>
+  <view class='city-list-item'>阿巴嘎旗</view>
+  <view class='city-list-item'>阿坝</view>
+  <view class='city-list-item'>阿巴嘎旗</view>
+  <view class='city-list-item'>阿坝</view>
+</view>  
+<view class='city-index'>B</view>
+<view class='city-list'>
+  <view class='city-list-item'>北京</view>
+  <view class='city-list-item'>北京</view>
+  <view class='city-list-item'>北京</view>
+  <view class='city-list-item'>北京</view>
+  <view class='city-list-item'>北京</view>
+</view>  
+<view class='city-index-list'>
+  <view class='city-index-list-inner'>
+    <view>热门</view>
+    <view>A</view>
+    <view>B</view>
+    <view>C</view>
+    <view>D</view>
+    <view>E</view>
+    <view>F</view>
+    <view>G</view>
+    <view>F</view>
+    <view>H</view>
+    <view>I</view>
+    <view>J</view>
+    <view>K</view>
+    <view>L</view>
+    <view>A</view>
+    <view>B</view>
+    <view>C</view>
+    <view>D</view>
+    <view>E</view>
+    <view>F</view>
+    <view>G</view>
+    <view>F</view>
+    <view>H</view>
+    <view>I</view>
+    <view>J</view>
+    <view>K</view>
+    <view>L</view>
+  </view>  
+</view>

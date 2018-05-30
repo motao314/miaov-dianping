@@ -1,0 +1,34 @@
+<!--pages/shopdetails/index.wxml-->
+<view class='shop-details'>
+  <view class='list-item'>
+    <image src='/common/img/img.png' class='list-img'></image>
+    <view class='list-info'>
+      <view class='list-title'>妙味课堂</view>
+      <view class='clear'>
+        <view class='list-score'>
+          <view class='score'></view>
+        </view>
+        <view class='list-price'> ￥40/人</view>
+      </view>
+      <view class='shop-score'>
+        口味：7.2 环境：7.1 服务: 9.2 
+      </view>
+      <view class='list-position'>
+          上地 快餐简餐
+      </view>
+    </view>
+  </view>
+  <view class='shop-aside iconfont icon-right'>
+    <text class='iconfont icon-shijian'>营业至22:00</text>
+    <text class='iconfont icon-wifi'>WIFI</text>
+    <text class='iconfont icon-shu'>景观位</text>
+    <text class='iconfont icon-baoxiang'>包厢</text>
+    <text class='iconfont icon-shafa'>沙发</text>
+    <text class='iconfont icon-baobaoyi'>宝宝椅</text>
+  </view>
+  <view class='shop-position iconfont icon-i-location'>
+    <view class='shop-address'>北京市海淀区西二旗</view>
+    <view class='shop-dis'>距您步行40m，需要1分钟</view>
+  </view>
+</view>
+<button type='default' class='btn'>收藏店铺</button>

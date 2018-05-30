@@ -1,0 +1,22 @@
+<template name='list'>
+  <view class='list'>
+    <view class='list-item'>
+      <navigator url='/pages/shopdetails/index'>
+        <image src='/common/img/img.png' class='list-img'></image>
+        <view class='list-info'>
+          <view class='list-title'>妙味课堂</view>
+          <view class='clear'>
+            <view class='list-score'>
+              <view class='score'></view>
+            </view>
+            <view class='list-price'> ￥40/人</view>
+          </view>
+          <view class='list-position'>
+              上地 快餐简餐
+              <text class='list-dis'>150m</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

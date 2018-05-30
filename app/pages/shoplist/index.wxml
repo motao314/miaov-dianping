@@ -1,0 +1,22 @@
+<!--pages/shoplist/index.wxml-->
+<import src='/common/template/list.wxml' />
+<scroll-view class='page' scroll-y>
+  <view class='list-nav'>
+    <text class='iconfont icon-down-trangle-copy'>附近</text>
+    <text class='ico'>|</text>
+    <text class='iconfont icon-down-trangle-copy'>智能排序</text>
+  </view>
+  <view class='shopList'>  
+    <template is='list' />
+  </view>  
+  <view class='load-more'>正在加载更多内容……</view>
+  <view class='range options'>
+    <view>500米</view>
+    <view>1000米</view>
+    <view>2000米</view>
+  </view>
+  <view class='sort options'>
+    <view>根据评分排序</view>
+    <view>根据距离排序</view>
+  </view>
+</scroll-view>

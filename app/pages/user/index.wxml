@@ -1,0 +1,17 @@
+<!--pages/user/index.wxml-->
+<view class='user-info'>
+    <button type='default' class='btn'>获取登录授权</button>
+    <view class='user'>
+      <image src='/common/img/img.png' class='user-photo'></image>
+      <view class='user-txt'>
+        <text>MiaoV</text>
+        <text>女</text>
+      </view>
+      <view class='user-txt'>
+        <text>China</text>
+      </view>
+    </view>  
+</view>
+<view class='user-list'>
+  <navigator url='/pages/collent/index' class='iconfont icon-right'>收藏列表</navigator>
+</view>

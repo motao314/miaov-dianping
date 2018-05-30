@@ -1,0 +1,2 @@
+/* pages/collent/index.wxss */
+@import "../../common/css/list.wxss";

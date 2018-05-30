@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoplist/index",
+    "pages/shopdetails/index",
+    "pages/user/index",
+    "pages/login/index",
+    "pages/collent/index",
+    "pages/citylist/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#181818",
+    "navigationBarTitleText": "妙味点评",
+    "navigationBarTextStyle": "#fff"
+  }
+}

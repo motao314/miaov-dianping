@@ -1,0 +1,36 @@
+<import src='/common/template/list.wxml' />
+<scroll-view class='scroll-page' scroll-y>
+  <view class='header'>
+    <navigator url='/pages/citylist/index' class='city'>北京</navigator>
+    <navigator url='/pages/user/index' class='userinfo'>
+      <image src='/common/img/login.png'></image>
+    </navigator>
+  </view>
+  <view class='nav-list'>
+    <navigator url='/pages/shoplist/index'>
+      <image src='/common/img/food.png'></image>
+      <text>美食</text>
+    </navigator>
+    <navigator url='/pages/shoplist/index'>
+      <image src='/common/img/ktv.png'></image>
+      <text>KTV</text>
+    </navigator>
+    <navigator url='/pages/shoplist/index'>
+      <image src='/common/img/pedicure.png'></image>
+      <text>足疗/按摩</text>
+    </navigator>
+    <navigator url='/pages/shoplist/index'>
+      <image src='/common/img/hotel.png'></image>
+      <text>酒店</text>
+    </navigator>
+    <navigator url='/pages/shoplist/index'>
+      <image src='/common/img/hair.png'></image>
+      <text>丽人/美发</text>
+    </navigator>
+  </view>
+  <view class='hot'>
+    <view class='hot-title'>猜你喜欢</view>
+    <template is='list' />
+  </view>  
+  <view class='load-more'>正在加载更多内容……</view>
+</scroll-view>
